@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Poppins:wght@300;400&display=swap');
+
+// Set your brand colors
+$purple-dark: #4a006f;
+$pink: #eda2c3;
+$pink-light: #fadde1;
+$brown: #985a40;
+$brown-dark: #64321b;
+$eggshell: #f7f0e3;
+$blue-darkest: #0C3E5E;
+$blue-dark: #155b87;
+$blue: #2d92d1;
+$blue-light: #b8c3ca;
+$blue-lightest: #97d1f4;
+$green-darkest: #0c5e50;
+$green-dark: #158774;
+$green-mint: #2ed1b5;
+$green-light: #74e8d4;
+$green-lightest: #97f4e5;
+$yellow-dark: #ffcb05;
+$yellow-light: #ffdb57;
+$family-sans-serif: "Alata", sans-serif;
+$family-monospace: "Poppins", sans-serif;
+
+// Update Bulma's global variables
+$primary: $brown-dark;
+$info: $blue-dark;
+$success: $green-darkest;
+$warning: $yellow-dark;
+$danger: $purple-dark;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+$family-primary: $family-sans-serif;
+$box-color: $blue-light;
+
+// Update some of Bulma's component variables
+
+
+// Import only what you need from Bulma
+@import "node_modules/bulma/bulma.sass";
+
+@import "node_modules/bulma/sass/utilities/_all.sass";
+@import "node_modules/bulma/sass/base/_all.sass";
+@import "node_modules/bulma/sass/elements/button.sass";
+@import "node_modules/bulma/sass/elements/container.sass";
+@import "node_modules/bulma/sass/elements/title.sass";
+@import "node_modules/bulma/sass/components/navbar.sass";
+@import "node_modules/bulma/sass/layout/hero.sass";
+@import "node_modules/bulma/sass/layout/section.sass";
+@import "./main.scss";

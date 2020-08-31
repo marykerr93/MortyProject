@@ -1,0 +1,38 @@
+.center-text{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: -8px;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    color: white;
+    opacity: 0;
+}
+
+.full-height{
+    height: 100vh;
+}
+
+.biopic{
+    position: relative;
+    height: 40%;
+    border-radius: 30px;
+    float: right;
+}
+
+.green{
+    color: #74e8d4;
+}
+
+.blue{
+    color: #97d1f4;
+}
+
+.wrapper:hover img{
+    opacity: 0.5;
+}
+
+.wrapper:hover .center-text{
+    opacity: 1;
+}

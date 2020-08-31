@@ -1,0 +1,19 @@
+{
+  "name": "morty-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "styles.scss",
+  "dependencies": {},
+  "devDependencies": {
+    "bulma": "^0.9.0",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css-build": "node-sass --omit-source-map-url styles.scss styles.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "author": "Mary Kerr",
+  "license": "ISC"
+}
