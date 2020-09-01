@@ -35,7 +35,7 @@ $danger: $purple-dark;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 $family-primary: $family-sans-serif;
-$box-color: $blue-light;
+$box-color: $blue;
 
 // Update some of Bulma's component variables
 
@@ -51,4 +51,5 @@ $box-color: $blue-light;
 @import "node_modules/bulma/sass/components/navbar.sass";
 @import "node_modules/bulma/sass/layout/hero.sass";
 @import "node_modules/bulma/sass/layout/section.sass";
+@import "node_modules/bulma-timeline/src/sass/index.sass";
 @import "./main.scss";
