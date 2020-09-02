@@ -6,7 +6,7 @@
     top: 50%;
     left: 0;
     z-index: 1;
-    color: white;
+    color: $eggshell;
     opacity: 0;
 }
 
@@ -26,11 +26,11 @@
 }
 
 .green{
-    color: #74e8d4;
+    color: $green-light;
 }
 
 .blue{
-    color: #97d1f4;
+    color: $blue-lightest;
 }
 
 .wrapper:hover img{
