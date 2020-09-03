@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .center-text{
     position: absolute;
     width: 100%;
@@ -14,15 +18,13 @@
     justify-content: center;
 }
 
-.full-height{
-    height: 100vh;
-}
-
 .biopic{
     position: relative;
     height: 40%;
-    border-radius: 30px;
+    border-radius: 10%;
     float: right;
+    padding: 1.5rem;
+    margin-top: -5px;
 }
 
 .green{
@@ -35,8 +37,10 @@
 
 .wrapper:hover img{
     opacity: 0.5;
+    transition: opacity 0.5s;
 }
 
 .wrapper:hover .center-text{
     opacity: 1;
+    transition: opacity 0.5s;
 }

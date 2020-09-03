@@ -4126,7 +4126,7 @@ a.navbar-item,
   .navbar-item.has-dropdown-up .navbar-link::after {
     transform: rotate(135deg) translate(0.25em, -0.25em); }
   .navbar-item.has-dropdown-up .navbar-dropdown {
-    border-bottom: #985a40;
+    border-bottom: #f7f0e3;
     border-radius: 6px 6px 0 0;
     border-top: none;
     bottom: 100%;
@@ -4148,10 +4148,10 @@ a.navbar-item,
     justify-content: flex-end;
     margin-left: auto; }
   .navbar-dropdown {
-    background-color: #64321b;
+    background-color: white;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    border-top: #985a40;
+    border-top: #f7f0e3;
     box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
     display: none;
     font-size: 0.875rem;
@@ -8948,7 +8948,7 @@ a.navbar-item,
   .navbar-item.has-dropdown-up .navbar-link::after {
     transform: rotate(135deg) translate(0.25em, -0.25em); }
   .navbar-item.has-dropdown-up .navbar-dropdown {
-    border-bottom: #985a40;
+    border-bottom: #f7f0e3;
     border-radius: 6px 6px 0 0;
     border-top: none;
     bottom: 100%;
@@ -8970,10 +8970,10 @@ a.navbar-item,
     justify-content: flex-end;
     margin-left: auto; }
   .navbar-dropdown {
-    background-color: #64321b;
+    background-color: white;
     border-bottom-left-radius: 6px;
     border-bottom-right-radius: 6px;
-    border-top: #985a40;
+    border-top: #f7f0e3;
     box-shadow: 0 8px 8px rgba(10, 10, 10, 0.1);
     display: none;
     font-size: 0.875rem;
@@ -9952,6 +9952,9 @@ a.navbar-item,
   .timeline.no-headers .timeline-item.is-last::before {
     height: 1.2rem; }
 
+html {
+  scroll-behavior: smooth; }
+
 .center-text {
   position: absolute;
   width: 100%;
@@ -9966,14 +9969,13 @@ a.navbar-item,
 .horizontal-center {
   justify-content: center; }
 
-.full-height {
-  height: 100vh; }
-
 .biopic {
   position: relative;
   height: 40%;
-  border-radius: 30px;
-  float: right; }
+  border-radius: 10%;
+  float: right;
+  padding: 1.5rem;
+  margin-top: -5px; }
 
 .green {
   color: #74e8d4; }
@@ -9982,7 +9984,9 @@ a.navbar-item,
   color: #97d1f4; }
 
 .wrapper:hover img {
-  opacity: 0.5; }
+  opacity: 0.5;
+  transition: opacity 0.5s; }
 
 .wrapper:hover .center-text {
-  opacity: 1; }
+  opacity: 1;
+  transition: opacity 0.5s; }
